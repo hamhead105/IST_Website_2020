@@ -1,9 +1,36 @@
 * { box-sizing: border-box; }
 
 :root {
-    --color1: blue;
+    --prusBlue: rgb(7,36,54);
+    --inDye: rgb(3,59,99);
+    --airSupBlue: rgb(124,152,172);
+    --cultured: rgb(245,245,245);
+    --opal: rgb(235,101,89);
 }
+
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: var(--color1);
+    font-family: 'Oswald', sans-serif;  
+    font-weight: bold;
+    color: var(--cultured);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navBox {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid var(--airSupBlue);
+    color: var(--cultured);
+    padding: 5px 5px 5px 5px;
+    width: 18%;
+}
+
+.flowchart {
+    background-color: var(--cultured);
+    width: 100%;
+}
+
+body {
+    background-color: var(--prusBlue);
 }
