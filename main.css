@@ -4,6 +4,7 @@
     --prusBlue: rgb(7,36,54);
     --inDye: rgb(3,59,99);
     --airSupBlue: rgb(124,152,172);
+    --beauBlue: rgb(185, 199, 209);
     --cultured: rgb(245,245,245);
     --opal: rgb(235,101,89);
 }
@@ -13,7 +14,9 @@ h1 {
     font-weight: bold;
     color: var(--cultured);
     margin-top: 20px;
-    margin-left: 20px;
+    padding-left: 20px;
+    background-color: var(--inDye);
+    width: 100%;
 }
 
 .navBox {
@@ -33,4 +36,43 @@ h1 {
 
 body {
     background-color: var(--prusBlue);
+}
+
+p {
+    color: var(--cultured);
+}
+
+h3 {
+    color: var(--cultured);
+    font-family: 'Oswald', sans-serif;  
+}
+
+.table_heading {
+    text-align: left;
+    color: var(--cultured);
+    width: 40%;
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;  
+    border: 1px solid var(--airSupBlue);
+}
+
+table {
+    border: 1px solid var(--airSupBlue);
+    margin-top: 40px;
+}
+
+tr {
+    text-align: left;
+    color: var(--cultured);
+    font-family: 'Oswald', sans-serif;  
+}
+
+th {
+    border-left: 1px solid var(--airSupBlue);
+    border-right: 1px solid var(--airSupBlue);
+}
+
+td {
+    border-left: 1px solid var(--airSupBlue);
+    border-right: 1px solid var(--airSupBlue);
 }
