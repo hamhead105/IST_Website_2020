@@ -7,6 +7,36 @@
     --beauBlue: rgb(185, 199, 209);
     --cultured: rgb(245,245,245);
     --opal: rgb(235,101,89);
+    --mint: rgb(177,255,166);
+}
+
+.subTitle {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;  
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--cultured);
+    text-align: center;
+    width: 50%;
+    margin-left: 23%;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.mainTitle {
+    margin-top: -15px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;  
+    font-weight: bold;
+    font-size: 65px;
+    color: var(--cultured);
+    text-align: center;
+    width: 50%;
+    margin-left: 23%;
+    margin-right: auto;
+    background-color: var(--opal);
+    border-radius: 5px;
+
 }
 
 h1 {
@@ -37,6 +67,10 @@ h1 {
     width: 5%;
 }
 
+.heading > .fas:hover {
+    cursor: pointer;
+}
+
 .navBox {
     display: block;
     text-decoration: none;
@@ -57,12 +91,14 @@ h1 {
     margin-left: 3%;
 }
 
-.info {
+article {
+    vertical-align: top;
     display: inline-block;
     width: 40%
 }
 
 aside {
+    vertical-align: top;
     margin-top: 15px;
     display: inline-block;
     width: 40%;
@@ -75,13 +111,18 @@ aside {
     text-align: center;
     padding-top: 20px;
     font-weight: bold;
-    
 }
 
 .side_tab {
     background-color: var(--beauBlue);
     width: 100%;
     border-radius: 10px 10px 10px 10px;
+}
+
+.medium_img {
+    margin-top: 20px;
+    background-color: var(--cultured);
+    width: 70%;
 }
 
 .large_img {
@@ -185,23 +226,30 @@ select {
     color: var(--cultured);
     text-align: center;
     font-size: 20px;
-    width: 3%;
+    width: 5%;
 }
 
 .button {
     font-family: 'Oswald', sans-serif;  
     color: var(--cultured);
     background-color: var(--prusBlue);
+    text-align: center;
+    width: 130px;
+    border: 1px solid var(--cultured);
+    border-radius: 15px;  
+    margin: 5px 0px 40px 0px; 
 }
 
 .button:hover {
     cursor: pointer;
+    background-color: var(--cultured);
+    color: var(--prusBlue);
 }
 
-.button {
-    text-align: center;
-    width: 5%;
-    border: 1px solid var(--cultured);
-    border-radius: 15px;    
+.minty {
+    color: var(--mint);
 }
 
+.red {
+    color: var(--opal);
+}
