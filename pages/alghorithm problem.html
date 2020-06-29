@@ -4,43 +4,74 @@
     <head>
         <title> Peter Jung's HTML website </title>
         <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1> Alghorithm Problem </h1>
-        <a class="navBox"  href="index.html"> Home </a>
-        <a class="navBox" href = "bloodTester.html"> Red Cell Compatibility </a>
-        <a class="navBox" href = "alghorithm problem.html"> Alghorithm Problem </h3>
-        <a class="navBox" href="alghorithm solution.html"> Alghorithm Solution </a>
-        <a class="navBox" href="Deskchecking.html"> Desk Checking </a>
-
-        <br>
-        <table>
-            <tr>
-                <td class="table_heading"> Input </td>
-                <td class="table_heading"> Processing </td>
-                <td class="table_heading"> Output </td>
-            </tr>
-            <tr>
-                <td> - Donor blood Group </td> 
-                <td> - check all fields are correctly filled </td>
-                <td> - Fields filled incorrectly </td>
-            </tr>
-            <tr>
-                <td> - Donor blood RH </td>
-                <td> - check blood group is compatible </td>
-                <td> - Blood group incompatible </td>
-            </tr>
-            <tr> 
-                <td> - Patient blood group </td>
-                <td> - check blood RH is compatible </td>
-                <td> - Blood RH incompatible </td>
-            </tr>
-            <tr>
-                <td> - Patient blood RH </td>
-                <td> </td>
-                <td> - match </td>
-            </tr>
-        </table>
+        <div class="heading">  <span class="fas fa-bars" id="menuButton"> </span> <h1> Peter Jung's HTML website </h1> </div>
+        <div class="menu" id="menu">
+            <a class="navBox"  href="index.html"> Home </a>
+            <a class="navBox" href = "bloodTester.html"> Red Cell Compatibility </h3>
+            <a class="navBox" href = "alghorithm problem.html"> Alghorithm Problem </h3>
+            <a class="navBox" href="alghorithm solution.html"> Alghorithm Solution </a>
+            <a class="navBox" href="Deskchecking.html"> Desk Checking </a>
+        </div>
+        
+        <div class="main" id="main">
+            <br>
+            <div class="info">
+                <h2> Level 3, Problem 2: </h2>
+                <p>
+                    Blood type is a classification of blood based on the presence or absence of A and/or B antigens on
+                    the surface of red blood cells. You may have heard of A, B, AB, and O types. <br>
+                    The classification also considers the Rh factor which could be positive or negative. For this question,
+                    every blood type is either Rh positive or negative. That is, blood type could be A+ or O-, etc. <br>
+                    Blood type compatibility is important for blood donations as incompatible types will trigger an
+                    immune response.
+                </p>
+                <ul>
+                    <li>Each blood group can donate to someone of the same group</li>
+                    <li>Blood type O can donate to all other groups</li> 
+                    <li>Both blood types A and B can donate to blood type AB</li>
+                    <li>Rh negative can donation to either Rh negative or positive</li>
+                    <li>Rh positive can only donate to Rh positive</li>
+                </ul>
+            </div>
+            <aside> 
+                <div class="side_tab">
+                    <h2> Blood compatibility chart </h2> 
+                    <img src="../images/BloodChart.png" alt="blood chart" class="aside_img"> 
+                </div>
+            </aside>
+            <h2> IPO chart </h2> 
+            <table>
+                <tr>
+                    <td class="table_heading"> Input </td>
+                    <td class="table_heading"> Processing </td>
+                    <td class="table_heading"> Output </td>
+                </tr>
+                <tr>
+                    <td> - Donor blood Group </td> 
+                    <td> - check all fields are correctly filled </td>
+                    <td> - Fields filled incorrectly </td>
+                </tr>
+                <tr>
+                    <td> - Donor blood RH </td>
+                    <td> - check blood group is compatible </td>
+                    <td> - Blood group incompatible </td>
+                </tr>
+                <tr> 
+                    <td> - Patient blood group </td>
+                    <td> - check blood RH is compatible </td>
+                    <td> - Blood RH incompatible </td>
+                </tr>
+                <tr>
+                    <td> - Patient blood RH </td>
+                    <td> </td>
+                    <td> - match </td>
+                </tr>
+            </table>
+        </div>
+        <script src="../javascript/script1.js"></script>
     </body>
 </html>

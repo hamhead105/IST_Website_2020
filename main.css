@@ -28,7 +28,7 @@ h1 {
     background-color: var(--inDye);
 }
 
-.fas {
+.heading > .fas {
     text-align: left;
     display: inline-block;
     color: var(--cultured);
@@ -38,11 +38,50 @@ h1 {
 }
 
 .navBox {
+    display: block;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    border: 2px solid var(--airSupBlue);
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0px 15px 0px;
     color: var(--cultured);
     width: 100%;
+}
+
+.menu {
+    width: 100%;
+}
+
+.main {
+    width: 97%;
+    margin-left: 3%;
+}
+
+.info {
+    display: inline-block;
+    width: 40%
+}
+
+aside {
+    margin-top: 15px;
+    display: inline-block;
+    width: 40%;
+    padding-left: 10%
+}
+
+.side_tab > h2 {
+    color: var(--opal);
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+
+.side_tab {
+    background-color: var(--beauBlue);
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .large_img {
@@ -51,17 +90,50 @@ h1 {
     width: 100%;
 }
 
+.small_img {
+    margin-top: 20px;
+    background-color: var(--cultured);
+    width: 30%;
+}
+
+.aside_img  {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: var(--cultured);
+    width: 80%;
+}
+
 body {
     background-color: var(--prusBlue);
 }
 
 p {
     color: var(--cultured);
+    font-family: 'Oswald', sans-serif;  
+}
+
+h2 {
+    color: var(--cultured);
+    font-family: 'Oswald', sans-serif;  
+    font-weight: bold;
+}
+
+li {
+    color: var(--cultured);
+    font-family: 'Oswald', sans-serif;  
 }
 
 h3 {
     color: var(--cultured);
     font-family: 'Oswald', sans-serif;  
+}
+
+h4 {
+    color: var(--cultured);
+    font-family: 'Oswald', sans-serif;  
+    display: inline-block;
 }
 
 .table_heading {
@@ -82,8 +154,9 @@ h3 {
 }
 
 table {
+    width: 40%;
     border: 1px solid var(--airSupBlue);
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 tr {
@@ -101,3 +174,34 @@ td {
     border-left: 1px solid var(--airSupBlue);
     border-right: 1px solid var(--airSupBlue);
 }
+
+select {
+    font-family: 'Oswald', sans-serif;  
+    color: var(--cultured);
+    background-color: var(--prusBlue);
+}
+
+.fas {
+    color: var(--cultured);
+    text-align: center;
+    font-size: 20px;
+    width: 3%;
+}
+
+.button {
+    font-family: 'Oswald', sans-serif;  
+    color: var(--cultured);
+    background-color: var(--prusBlue);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+    width: 5%;
+    border: 1px solid var(--cultured);
+    border-radius: 15px;    
+}
+

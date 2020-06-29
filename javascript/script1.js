@@ -1,15 +1,12 @@
 menu.classList.add("hidden");
+
 var menuOpen = false;
 
 menuButton.onclick = toggleMenu;
 
 function toggleMenu() {
-    if (menuOpen) {
-        menu.classList.add("hidden");
-    } else {
-        menu.classList.add("visible");
-    }
-    menuOpen = !menuOpen;
+    menu.classList.toggle("hidden");
+    main.classList.toggle("hidden");
 }
 
 
