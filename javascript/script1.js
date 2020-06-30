@@ -13,6 +13,7 @@ menu.style.marginTop = menuPos + "px";
 
 menuButton.onclick = toggleMenu;
 
+menu.classList.add("hidden");
 
 function toggleMenu() {
     clearTimeout(openMenu);

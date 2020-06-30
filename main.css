@@ -69,6 +69,11 @@ h1 {
 }
 
 .heading > .fas:hover {
+    color: var(--opal);
+}
+
+
+.heading > .fas:hover {
     cursor: pointer;
 }
 
@@ -81,6 +86,11 @@ h1 {
     padding: 15px 0px 15px 0px;
     color: var(--cultured);
     width: 100%;
+}
+
+.navBox:hover {
+    font-size: 30px;
+    color: var(--opal);
 }
 
 .menu {
