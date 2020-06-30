@@ -1,7 +1,7 @@
 
 var menuOpen = false;
 
-var menuTarget = -300;
+var menuTarget = -350;
 
 var menuPos = menuTarget;
 var menuOpacity = 0;
@@ -43,6 +43,7 @@ function displayConsole() {
 displayConsole();
 
 function openMenu() {
+    menu.classList.remove("hidden");
     menuOpen = true;
     menu.style.marginTop = menuPos + "px";
     menuPos += -(menuPos) / 30
@@ -71,7 +72,8 @@ function closeMenu() {
     if ((menuPos - menuTarget) > 20) {
         setTimeout(closeMenu, 5)
     } else {
-        isAnimation = false;
+        isAnimation = false;    
+        menu.classList.add("hidden");
     }
 }
 
