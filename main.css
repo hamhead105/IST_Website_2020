@@ -69,7 +69,7 @@ h1 {
 }
 
 .heading > .fas:hover {
-    color: var(--opal);
+    color: var(--beauBlue);
 }
 
 
@@ -90,7 +90,7 @@ h1 {
 
 .navBox:hover {
     font-size: 30px;
-    color: var(--opal);
+    color: var(--beauBlue);
 }
 
 .menu {
