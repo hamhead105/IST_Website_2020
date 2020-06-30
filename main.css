@@ -52,6 +52,8 @@ h1 {
 }
 
 .heading {
+    position: relative;
+    z-index: 2;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
@@ -83,6 +85,8 @@ h1 {
 }
 
 .menu {
+    position: relative;
+    z-index: 1;
     width: 100%;
 }
 

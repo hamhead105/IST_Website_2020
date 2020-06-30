@@ -2,14 +2,26 @@ subTitle.style.opacity = 0;
 mainTitle.style.opacity = 0;
 
 var currentOpacity = 0;
+var titlePos = 100;
 
 function opac() {
     currentOpacity += 0.01;
     mainTitle.style.opacity = currentOpacity;
     subTitle.style.opacity = currentOpacity;
-    setTimeout(opac, 5)
+    if (currentOpacity < 1) {
+        setTimeout(opac, 5)
+    }
 }
 
+function moveAppear() {
+    main.style.marginTop = titlePos + "px";
+    titlePos -= 1;
+    if (titlePos > 0) {
+        setTimeout(moveAppear, 5)
+    }
+}
+
+setTimeout(moveAppear, 500)
 setTimeout(opac, 500)
 
 
