@@ -1,5 +1,5 @@
 var menuOpen = false;
-var menuTarget = -350;
+var menuTarget = -420;
 
 var menuPos = menuTarget;
 var menuOpacity = 0;
