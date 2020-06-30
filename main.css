@@ -36,7 +36,6 @@
     margin-right: auto;
     background-color: var(--opal);
     border-radius: 5px;
-
 }
 
 h1 {
@@ -139,6 +138,7 @@ aside {
     margin-top: 20px;
     background-color: var(--cultured);
     width: 30%;
+    border: 1px solid var(--cultured);
 }
 
 .aside_img  {
@@ -256,4 +256,8 @@ select {
 
 .red {
     color: var(--opal);
+}
+
+.showcaseParagraph {
+    width: 70%;
 }
